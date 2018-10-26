@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    "stylelint-declaration-strict-value",
+    "stylelint-declaration-use-variable",
+    "stylelint-order",
+    "stylelint-scss"
+  ],
+  "rules": {
+    "scale-unlimited/declaration-strict-value": "color",
+    "sh-waqar/declaration-use-variable": "color",
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ],
+    "order/properties-alphabetical-order": true,
+    "scss/dollar-variable-pattern": "^foo",
+    "scss/selector-no-redundant-nesting-selector": true
+  }
+}
