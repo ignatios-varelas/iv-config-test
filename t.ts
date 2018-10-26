@@ -1,7 +1,2 @@
-@NgModule({ 
-  exports: [ RouterModule ],
-  imports: [ RouterModule.forRoot(
-    routes,
-    { enableTracing: true },
-  ],
-})
+var foo= "";
+       ~ [Insert `·`]
