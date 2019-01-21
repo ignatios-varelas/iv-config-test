@@ -112,7 +112,7 @@
       }
     ],
     "prettier/prettier": [
-      "warning",
+      "warn",
       {
         "singleQuote": true,
         "parser": "flow"
