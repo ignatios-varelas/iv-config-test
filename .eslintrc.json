@@ -64,7 +64,7 @@
     }
   },
   "rules": {
-    "angular/controller_name": true,
+    "angular/controller_name": 1,
     "async-await/space-after-async": 2,
     "async-await/space-after-await": 2,
     "babel/new-cap": 1,
