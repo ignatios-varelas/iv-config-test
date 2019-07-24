@@ -53,7 +53,8 @@
     "plugin:react-native/all",
     "plugin:redux-saga/recommended",
     "plugin:requirejs/recommended",
-    "plugin:security/recommended"
+    "plugin:security/recommended",
+    "plugin:jasmine/recommended"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
