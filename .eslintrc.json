@@ -113,6 +113,7 @@
     "jest/prefer-to-have-length": "warn",
     "jest/valid-expect": "error",
     "mocha/no-exclusive-tests": "error",
+    "mocha/handle-done-callback": "error",
     "prefer-arrow/prefer-arrow-functions": [
       "warn",
       {
