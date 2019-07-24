@@ -1,0 +1,3 @@
+Template.parentData()
+
+Template.currentData()
