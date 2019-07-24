@@ -64,6 +64,8 @@
     }
   },
   "rules": {
+    "import/no-dynamic-require": 2,
+    "import/no-unresolved": 2,
     "requirejs/no-invalid-define": 2,
     "requirejs/no-multiple-define": 2,
     "requirejs/no-named-define": 2,
