@@ -74,7 +74,7 @@
     "requirejs/no-named-define": 2,
     "requirejs/no-commonjs-wrapper": 2,
     "requirejs/no-object-define": 1,    
-    "angular/controller_name": 1,
+    "angular/controller-name": [2, "/[A-Z].*Controller$/"],
     "async-await/space-after-async": 2,
     "async-await/space-after-await": 2,
     "babel/new-cap": 1,
