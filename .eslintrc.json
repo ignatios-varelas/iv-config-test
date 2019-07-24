@@ -64,6 +64,11 @@
     }
   },
   "rules": {
+    "requirejs/no-invalid-define": 2,
+    "requirejs/no-multiple-define": 2,
+    "requirejs/no-named-define": 2,
+    "requirejs/no-commonjs-wrapper": 2,
+    "requirejs/no-object-define": 1,    
     "angular/controller_name": 1,
     "async-await/space-after-async": 2,
     "async-await/space-after-await": 2,
