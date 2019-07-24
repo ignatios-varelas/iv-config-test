@@ -64,6 +64,8 @@
     }
   },
   "rules": {
+    "meteor/no-template-lifecycle-assignments" : 2,
+    "meteor/no-template-parent-data" : 2,    
     "import/no-dynamic-require": 2,
     "import/no-unresolved": 2,
     "requirejs/no-invalid-define": 2,
