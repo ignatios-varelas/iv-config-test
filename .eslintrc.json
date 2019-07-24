@@ -65,6 +65,7 @@
     }
   },
   "rules": {
+    "mongodb/no-replace": 1,    
     "meteor/no-template-lifecycle-assignments" : 2,
     "meteor/no-template-parent-data" : 2,    
     "import/no-dynamic-require": 2,
