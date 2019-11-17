@@ -46,7 +46,7 @@ empty-blocks:
     active: true
     ignoreOverriddenFunctions: true
   EmptyIfBlock:
-    active: false
+    active: true
   EmptyInitBlock:
     active: true
   EmptyKtFile:
