@@ -178,9 +178,6 @@ Style/RedundantSortBy:
 Performance/DoubleStartEndWith:
   Enabled: true
 
-Performance/UnneededSort:
-  Enabled: true
-
 Performance/InefficientHashSearch:
   Enabled: true
 
