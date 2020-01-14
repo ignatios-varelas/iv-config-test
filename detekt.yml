@@ -1,19 +1,3 @@
-test-pattern:
-  active: true
-  patterns:
-    - '.*/test/.*'
-    - '.*/androidTest/.*'
-    - '.*Test.kt'
-    - '.*Spec.kt'
-    - '.*Spek.kt'
-  exclude-rules:
-    - 'UnnecessaryInheritance'
-    - 'UnusedPrivateClass'
-    - 'EmptySecondaryConstructor'
-    - 'EmptyCatchBlock'
-    - 'EmptyClassBlock'
-    - 'EmptyFunctionBlock'
-
 processors:
   active: false
 
@@ -44,7 +28,7 @@ empty-blocks:
     active: true
   EmptyFunctionBlock:
     active: true
-    ignoreOverriddenFunctions: true
+    ignoreOverridden: true
   EmptyIfBlock:
     active: true
   EmptyInitBlock:
