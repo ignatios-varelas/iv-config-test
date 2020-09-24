@@ -1,3 +1,5 @@
+require: rubocop-performance
+
 AllCops:
   DisabledByDefault: true
 
@@ -18,68 +20,68 @@ Style/RedundantException:
 
 Style/RedundantConditional:
   Enabled: true
-
+  
 Style/RedundantBegin:
   Enabled: true
-
+  
 Style/OptionalArguments:
   Enabled: true
-
+  
 Style/IdenticalConditionalBranches:
   Enabled: true
 
 Style/CharacterLiteral:
   Enabled: true
-
+  
 Layout/TrailingWhitespace:
   Enabled: true
-
+  
 Lint/UselessSetterCall:
   Enabled: true
-
+  
 Lint/UselessElseWithoutRescue:
   Enabled: true
-
+  
 Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: true
 
 # https://github.com/bbatsov/rubocop/issues/3591
 Lint/UselessAssignment:
   Enabled: true
-
+  
 Lint/UriRegexp:
   Enabled: true
-
+  
 Lint/UriEscapeUnescape:
   Enabled: true
 
 Lint/UnreachableCode:
   Enabled: true
-
+  
 Lint/RedundantSplatExpansion:
   Enabled: true
-
+  
 Lint/RedundantStringCoercion:
   Enabled: true
-
+  
 Lint/SafeNavigationChain:
   Enabled: true
-
+  
 Lint/ReturnInVoidContext:
   Enabled: true
 
 Lint/RescueType:
   Enabled: true
-
+  
 Lint/RandOne:
   Enabled: true
-
+  
 Lint/NextWithoutAccumulator:
   Enabled: true
-
+  
 Lint/MultipleComparison:
   Enabled: true
-
+  
 Lint/LiteralAsCondition:
   Enabled: true
 
@@ -99,7 +101,7 @@ Lint/EnsureReturn:
   Enabled: true
 
 Lint/EmptyWhen:
-  Enabled: true
+  Enabled: true  
 
 Lint/EmptyEnsure:
   Enabled: true
@@ -137,22 +139,46 @@ Lint/RedundantWithObject:
 Lint/BigDecimalNew:
   Enabled: true
 
-Lint/DisjunctiveAssignmentInConstructor:
+Performance/Casecmp:
   Enabled: true
 
-Lint/SafeNavigationWithEmpty:
+Performance/Caller:
   Enabled: true
 
-Lint/FlipFlop:
+Performance/UriDefaultParser:
   Enabled: true
+
+Performance/StringReplacement:
+  Enabled: true
+
+Performance/StartWith:
+  Enabled: true
+
+Performance/EndWith:
+  Enabled: true  
 
 Style/Sample:
+  Enabled: true
+
+Performance/ReverseEach:
+  Enabled: true
+
+Performance/RedundantBlockCall:
+  Enabled: true
+
+Performance/RedundantMatch:
+  Enabled: true
+
+Performance/RedundantMerge:
   Enabled: true
 
 Style/RedundantSortBy:
   Enabled: true
 
-Style/RedundantSort:
+Performance/DoubleStartEndWith:
+  Enabled: true
+
+Performance/InefficientHashSearch:
   Enabled: true
 
 Security/Eval:
@@ -166,7 +192,3 @@ Security/MarshalLoad:
 
 Security/YAMLLoad:
   Enabled: true
-
-Metrics/CyclomaticComplexity:
-  Enabled: true
-  Max: 0
