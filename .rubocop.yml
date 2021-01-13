@@ -192,3 +192,7 @@ Security/MarshalLoad:
 
 Security/YAMLLoad:
   Enabled: true
+
+Metrics/CyclomaticComplexity:
+  Enabled: true
+  Max: 7
