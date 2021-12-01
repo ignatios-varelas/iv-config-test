@@ -19,7 +19,6 @@
     "meteor",
     "mocha",
     "mongodb",
-    "no-unused-vars-rest",
     "node",
     "nodeca",
     "prefer-arrow",
