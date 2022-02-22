@@ -1,5 +1,5 @@
 assert True
-f = open('/tmp/abc', 'w')
+f = open('/tmp/abc', 'w') #nosec
 f.write('def')
 f.close()
 
