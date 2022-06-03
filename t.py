@@ -1,2 +1,2 @@
 class ABC(models.Model):
-    objects = models.Manager() # default manager
+    objects = models.Manager() # default manager 
